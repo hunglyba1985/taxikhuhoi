@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9A3A84D705349D249383BD /* Pods_Taxi_khu___ho__i.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7367CD7C891037CF3D2DB /* Pods_Taxi_khu___ho__i.framework */; };
 		52B0C36C1F01D60700C124E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0C36B1F01D60700C124E2 /* AppDelegate.swift */; };
 		52B0C36E1F01D60700C124E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0C36D1F01D60700C124E2 /* ViewController.swift */; };
 		52B0C3711F01D60700C124E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0C36F1F01D60700C124E2 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05B0273B6A60167149E38D79 /* Pods-Taxi khứ hồi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi khứ hồi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taxi khứ hồi/Pods-Taxi khứ hồi.release.xcconfig"; sourceTree = "<group>"; };
+		07E7367CD7C891037CF3D2DB /* Pods_Taxi_khu___ho__i.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Taxi_khu___ho__i.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0C3681F01D60700C124E2 /* Taxi khứ hồi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi khứ hồi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0C36B1F01D60700C124E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B0C36D1F01D60700C124E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		52B0C3751F01D60700C124E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B0C3781F01D60700C124E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B0C37A1F01D60700C124E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAE3F1E27CC66A01B306A0D /* Pods-Taxi khứ hồi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi khứ hồi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taxi khứ hồi/Pods-Taxi khứ hồi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9A3A84D705349D249383BD /* Pods_Taxi_khu___ho__i.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F9B07A4E747855E51B0AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07E7367CD7C891037CF3D2DB /* Pods_Taxi_khu___ho__i.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52B0C35F1F01D60700C124E2 = {
 			isa = PBXGroup;
 			children = (
 				52B0C36A1F01D60700C124E2 /* Taxi khứ hồi */,
 				52B0C3691F01D60700C124E2 /* Products */,
+				CB3067C5763A75AC4ED35C42 /* Pods */,
+				09F9B07A4E747855E51B0AD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = "Taxi khứ hồi";
 			sourceTree = "<group>";
 		};
+		CB3067C5763A75AC4ED35C42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE3F1E27CC66A01B306A0D /* Pods-Taxi khứ hồi.debug.xcconfig */,
+				05B0273B6A60167149E38D79 /* Pods-Taxi khứ hồi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B0C37D1F01D60700C124E2 /* Build configuration list for PBXNativeTarget "Taxi khứ hồi" */;
 			buildPhases = (
+				AA60A067A386F643CB1CB551 /* [CP] Check Pods Manifest.lock */,
 				52B0C3641F01D60700C124E2 /* Sources */,
 				52B0C3651F01D60700C124E2 /* Frameworks */,
 				52B0C3661F01D60700C124E2 /* Resources */,
+				19D14F8941019D251C828492 /* [CP] Embed Pods Frameworks */,
+				3754681712D40FCC80363127 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D14F8941019D251C828492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taxi khứ hồi/Pods-Taxi khứ hồi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3754681712D40FCC80363127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taxi khứ hồi/Pods-Taxi khứ hồi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA60A067A386F643CB1CB551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52B0C3641F01D60700C124E2 /* Sources */ = {
@@ -263,10 +338,12 @@
 		};
 		52B0C37E1F01D60700C124E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAE3F1E27CC66A01B306A0D /* Pods-Taxi khứ hồi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 988D2L6XZT;
 				INFOPLIST_FILE = "Taxi khứ hồi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LightStudio.Taxi-khu---ho--i";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +353,12 @@
 		};
 		52B0C37F1F01D60700C124E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B0273B6A60167149E38D79 /* Pods-Taxi khứ hồi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 988D2L6XZT;
 				INFOPLIST_FILE = "Taxi khứ hồi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LightStudio.Taxi-khu---ho--i";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +385,7 @@
 				52B0C37F1F01D60700C124E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
